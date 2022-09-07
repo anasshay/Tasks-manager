@@ -1,4 +1,5 @@
-<div class="task">
+<!-- if condition in derivative -->
+<div [ngClass]="{ reminder: task.reminder }" class="task" (dblclick)="onDoubleClick(task)">
   <h3>
     {{ task.text }}
     <fa-icon
