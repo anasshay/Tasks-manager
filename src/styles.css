@@ -45,6 +45,9 @@ body {
   width: 100%;
 }
 
+.add-form {
+  margin-bottom: 10px;
+}
 .form-control {
   margin: 20px 0;
 }
